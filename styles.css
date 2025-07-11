@@ -1,12 +1,232 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .entire-thing{
-    padding: 0 20px ;
-    margin: auto;
+    padding: 0;
+    display: block;
 
+    
+}
 
+.block1{
+    margin: 0px;
+    padding: 0%;
+    background-color: #1f2937;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+.panel1{
+    font-family: 'Roboto' ;
+    padding: 0 75px;
 }
 
 .navbar{
+    padding-top: 20px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    max-height: 100%;
+    max-width: 100%;
+    
 }
+
+.hero-main-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+
+
+}
+.logo-header{
+    height: 40px;
+    width: auto;
+
+}
+
+.hero-secondary, .right-shit    {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+.right-shit{
+    display: flex;
+    gap: 15px;
+}
+
+.part2panel1{
+    display: flex;
+    align-items: center;
+    margin: 75px auto 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 10%;
+}
+
+.pl-image, .content{
+    width: 50%;
+
+}
+.content{
+    height: 100%;
+}
+.pl-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%; 
+               
+}
+
+.pl-image img{
+    width: auto;
+    max-width: 100%;
+    height: 400px;
+    display: block;
+
+}
+
+.Sign-up{
+    background-color: #3882f6;
+    color: #f9f8fa;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+.panel2{
+    padding: 50px;
+}
+.headingpanel2{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin:20px auto;
+}
+
+.cards{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 100%;
+
+}
+
+.card{
+    overflow: hidden;
+    border: #1f2937;
+    max-height: 100%;
+    max-width: 100%;
+    width: 150px;
+}
+
+.placeholder{
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+}
+.placeholder2{
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+}
+.placeholder2 img{
+    height: 200px;
+    width: 100%;
+    object-fit:contain;
+}
+.placeholder img{
+    height: 200px;
+    width: auto;
+}
+.card p{
+    margin: 0 auto;
+    width: 100px;
+}
+
+.panel3{
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+.Quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    font-family: "Roboto";
+    color: #1f2937;
+}
+.auth{
+    display: flex;
+    justify-content: end;
+
+}
+
+.panel4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.blue-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+    padding: 20px 40px;
+    background-color: #3882f6;
+
+}
+
+.left-body h4{
+    color: #f9f8fa;
+
+
+}
+.left-body p{
+    color: #f9f8fa;
+    font-weight: lighter;
+
+}
+
+.dSign-up{
+    background-color: #3882f6;
+    color: #f9f8fa;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-color: #e5e7eb;
+}
+
+
+.panel5{
+    background-color: #1f2937;
+    padding: 20px;
+}
+
+.copy{
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
