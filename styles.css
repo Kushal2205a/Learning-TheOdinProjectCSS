@@ -1,0 +1,12 @@
+.entire-thing{
+    padding: 0 20px ;
+    margin: auto;
+
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
