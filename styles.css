@@ -33,8 +33,11 @@
     
 }
 
+
+
 .hero-main-text{
-    font-size: 48px;
+
+    font-size:clamp(24px,6vw,48px);
     color: #f9faf8;
     font-weight: 900;
 
@@ -47,7 +50,12 @@
 
 }
 
-.hero-secondary, .right-shit    {
+.hero-secondary{
+    color: #e5e7eb;
+    font-size: clamp(14px, 4vw, 24px);
+}
+
+.right-shit    {
     font-size: 18px;
     color: #e5e7eb;
 
@@ -74,8 +82,15 @@
     justify-content: center;
 }
 .content{
-    height: 100%;
+    height: auto;
+    width: 50%;
+    max-width: none;
+    max-height: 200px;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
 }
+
 .pl-image {
     display: flex;
     justify-content: center;
@@ -96,6 +111,7 @@
     border-radius: 10px;
     margin-top: 10px;
     padding: 10px;
+    width: fit-content;
     
 }
 .panel2{
