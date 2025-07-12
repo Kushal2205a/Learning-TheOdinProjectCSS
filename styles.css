@@ -41,6 +41,7 @@
 
 }
 .logo-header{
+    
     height: 40px;
     width: auto;
 
@@ -56,6 +57,12 @@
     gap: 15px;
 }
 
+.right-shit a{
+    color: #e5e7eb;
+    text-decoration: none;
+
+}
+
 .part2panel1{
     display: flex;
     align-items: center;
@@ -63,11 +70,8 @@
     padding-top: 50px;
     padding-bottom: 50px;
     gap: 10%;
-}
-
-.pl-image, .content{
-    width: 50%;
-
+    flex: auto;
+    justify-content: center;
 }
 .content{
     height: 100%;
@@ -75,15 +79,13 @@
 .pl-image {
     display: flex;
     justify-content: center;
-    align-items: center;
-    max-height: 100%; 
-               
+    align-items: center;            
 }
 
 .pl-image img{
-    width: auto;
-    max-width: 100%;
-    height: 400px;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
     display: block;
 
 }
@@ -111,12 +113,12 @@
 
 .cards{
     display: flex;
-    
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 30px;
     max-width: 100%;
+    flex-wrap: wrap;
 
 }
 
@@ -150,6 +152,8 @@
     width: auto;
 }
 .card p{
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     width: 100px;
 }
